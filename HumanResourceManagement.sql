@@ -28,6 +28,9 @@ create table NhanVien(
 	[maPB] [char](10) NOT NULL,
 	[Luong] [money] NULL,
 );
-
-
+go
+alter table NhanVien add primary key(maNV)
+alter table PhongBan add primary key(maPB)
+alter table NhanVien
+add constraint M foreign key(maPB) references PhongBan(maPB)
 
