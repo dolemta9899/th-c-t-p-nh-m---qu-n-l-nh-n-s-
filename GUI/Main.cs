@@ -31,6 +31,14 @@ namespace GUI
 
         private void flat_sach_Click(object sender, EventArgs e)
         {
+            UC.NhanVien a = new UC.NhanVien();
+            a.Dock = DockStyle.Fill;
+            paluse.Controls.Add(a);
+            foreach (Control ctrl in paluse.Controls)
+            {
+                if (ctrl != a)
+                    ctrl.Dispose();
+            }
         }
 
        
@@ -47,8 +55,15 @@ namespace GUI
 
         private void flat_thongke_Click(object sender, EventArgs e)
         {
-            
 
+            UC.PhongBan a = new UC.PhongBan();
+            a.Dock = DockStyle.Fill;
+            paluse.Controls.Add(a);
+            foreach (Control ctrl in paluse.Controls)
+            {
+                if (ctrl != a)
+                    ctrl.Dispose();
+            }
 
         }
 

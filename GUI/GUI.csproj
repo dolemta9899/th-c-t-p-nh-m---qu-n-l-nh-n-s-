@@ -92,6 +92,18 @@
     <Compile Include="taotk.Designer.cs">
       <DependentUpon>taotk.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC\NhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\PhongBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\PhongBan.Designer.cs">
+      <DependentUpon>PhongBan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ComponentForm\BoxFrom.resx">
       <DependentUpon>BoxFrom.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +131,12 @@
     </Compile>
     <EmbeddedResource Include="taotk.resx">
       <DependentUpon>taotk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\PhongBan.resx">
+      <DependentUpon>PhongBan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -197,6 +215,7 @@
   <ItemGroup>
     <None Include="Resources\_menu.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

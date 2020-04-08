@@ -126,8 +126,8 @@
             // 
             this.flat_thoat.Active = false;
             this.flat_thoat.BackColor = System.Drawing.Color.Transparent;
-            this.flat_thoat.BackgroundColorClick = System.Drawing.Color.Yellow;
-            this.flat_thoat.BackgroundColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.flat_thoat.BackgroundColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.flat_thoat.BackgroundColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.flat_thoat.BackgroundColorNormal = System.Drawing.Color.Transparent;
             this.flat_thoat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flat_thoat.IconAlignment = 3;
