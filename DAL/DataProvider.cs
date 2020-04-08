@@ -18,7 +18,7 @@ namespace QLNS.DataAccessLayer
         {
             try
             {
-                string sql = @"Data Source=DESKTOP-OBFA05G\SQLEXPRESS;Initial Catalog=QLNS4;Integrated Security=True";
+                string sql = @"Data Source=DESKTOP-OBFA05G\SQLEXPRESS;Initial Catalog= HumanResourceManagement;Integrated Security=True";
                 SqlConnection conn = new SqlConnection(sql);
                 conn.Open();
 
