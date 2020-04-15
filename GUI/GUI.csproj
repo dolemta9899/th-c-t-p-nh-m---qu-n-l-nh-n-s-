@@ -104,6 +104,12 @@
     <Compile Include="UC\PhongBan.Designer.cs">
       <DependentUpon>PhongBan.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC\TimKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\TimKiem.Designer.cs">
+      <DependentUpon>TimKiem.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ComponentForm\BoxFrom.resx">
       <DependentUpon>BoxFrom.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC\PhongBan.resx">
       <DependentUpon>PhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\TimKiem.resx">
+      <DependentUpon>TimKiem.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -204,18 +213,17 @@
     <None Include="Resources\1481007008_Error.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\anh dep.jpg" />
+    <None Include="Resources\login.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Hinh-nen-4k-cho-may-tinh-[khanhkhiem %2840%29.jpg" />
+    <None Include="Resources\menu.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Hinh-nen-4k-cho-may-tinh-[khanhkhiem %2835%29.jpg" />
+    <None Include="Resources\menu1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\_menu.jpg" />
+    <None Include="Resources\hinh-nen-may-tinh-4k-cuc-dep-21.jpg" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

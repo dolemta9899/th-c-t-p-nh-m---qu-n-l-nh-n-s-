@@ -20,7 +20,7 @@ namespace GUI
             InitializeComponent();
        
         }
-        SqlConnection a = new SqlConnection(@"Data Source=DESKTOP-OBFA05G\SQLEXPRESS;Initial Catalog=HumanResourceManagement;Integrated Security=True");
+        SqlConnection a = new SqlConnection(@"Data Source=DESKTOP-VPF0AQ3;Initial Catalog=HumanResourceManagement;Integrated Security=True");
    
 
         private void txttk_Click(object sender, EventArgs e)

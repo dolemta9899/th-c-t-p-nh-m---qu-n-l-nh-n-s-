@@ -46,11 +46,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(231, 47);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Location = new System.Drawing.Point(311, 223);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 21);
+            this.label1.Size = new System.Drawing.Size(105, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Tài Khoản :";
             // 
@@ -58,21 +57,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(231, 88);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(311, 272);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 21);
+            this.label2.Size = new System.Drawing.Size(100, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Mật Khẩu :";
             // 
             // txttk
             // 
             this.txttk.BackColor = System.Drawing.SystemColors.Menu;
-            this.txttk.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txttk.Location = new System.Drawing.Point(332, 49);
+            this.txttk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txttk.Location = new System.Drawing.Point(435, 223);
             this.txttk.Name = "txttk";
-            this.txttk.Size = new System.Drawing.Size(175, 20);
+            this.txttk.Size = new System.Drawing.Size(200, 22);
             this.txttk.TabIndex = 5;
             this.txttk.Text = "Nhập tài khoản";
             this.txttk.Click += new System.EventHandler(this.txttk_Click);
@@ -81,10 +79,10 @@
             // txtmk
             // 
             this.txtmk.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtmk.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtmk.Location = new System.Drawing.Point(332, 88);
+            this.txtmk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtmk.Location = new System.Drawing.Point(435, 272);
             this.txtmk.Name = "txtmk";
-            this.txtmk.Size = new System.Drawing.Size(175, 20);
+            this.txtmk.Size = new System.Drawing.Size(200, 22);
             this.txtmk.TabIndex = 6;
             this.txtmk.Text = "Nhập password";
             this.txtmk.UseSystemPasswordChar = true;
@@ -93,11 +91,9 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox1.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.checkBox1.Location = new System.Drawing.Point(332, 114);
+            this.checkBox1.Location = new System.Drawing.Point(590, 303);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(129, 18);
+            this.checkBox1.Size = new System.Drawing.Size(109, 17);
             this.checkBox1.TabIndex = 7;
             this.checkBox1.Text = "Hiển thị mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = false;
@@ -114,16 +110,16 @@
             // 
             this.btnthoat.Active = false;
             this.btnthoat.BackColor = System.Drawing.Color.Transparent;
-            this.btnthoat.BoderColorDisable = System.Drawing.Color.White;
-            this.btnthoat.BorderColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnthoat.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnthoat.BoderColorDisable = System.Drawing.Color.Empty;
+            this.btnthoat.BorderColorClick = System.Drawing.Color.Empty;
+            this.btnthoat.BorderColorHover = System.Drawing.Color.Empty;
             this.btnthoat.BorderColorNomal = System.Drawing.Color.Green;
             this.btnthoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthoat.InnerColorClick = System.Drawing.Color.Empty;
             this.btnthoat.InnerColorDisable = System.Drawing.Color.Empty;
             this.btnthoat.InnerColorHover = System.Drawing.Color.Empty;
-            this.btnthoat.InnerColorNomal = System.Drawing.Color.Red;
-            this.btnthoat.Location = new System.Drawing.Point(695, 302);
+            this.btnthoat.InnerColorNomal = System.Drawing.Color.DarkRed;
+            this.btnthoat.Location = new System.Drawing.Point(624, 400);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(75, 23);
             this.btnthoat.SizeBorder = 1;
@@ -134,7 +130,7 @@
             this.btnthoat.TextColorClick = System.Drawing.Color.Empty;
             this.btnthoat.TextColorDisable = System.Drawing.Color.Empty;
             this.btnthoat.TextColorHover = System.Drawing.Color.Empty;
-            this.btnthoat.TextColorNomal = System.Drawing.Color.White;
+            this.btnthoat.TextColorNomal = System.Drawing.Color.WhiteSmoke;
             this.btnthoat.UseActive = false;
             this.btnthoat.UseBorderColorHoverClick = false;
             this.btnthoat.UseInnerColorHoverClick = false;
@@ -149,14 +145,14 @@
             this.btnlogin.BorderColorClick = System.Drawing.Color.Empty;
             this.btnlogin.BorderColorHover = System.Drawing.Color.Empty;
             this.btnlogin.BorderColorNomal = System.Drawing.Color.Green;
-            this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.InnerColorClick = System.Drawing.Color.Empty;
             this.btnlogin.InnerColorDisable = System.Drawing.Color.Empty;
             this.btnlogin.InnerColorHover = System.Drawing.Color.Empty;
-            this.btnlogin.InnerColorNomal = System.Drawing.Color.Lime;
-            this.btnlogin.Location = new System.Drawing.Point(406, 178);
+            this.btnlogin.InnerColorNomal = System.Drawing.Color.LimeGreen;
+            this.btnlogin.Location = new System.Drawing.Point(422, 321);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(90, 23);
+            this.btnlogin.Size = new System.Drawing.Size(232, 43);
             this.btnlogin.SizeBorder = 1;
             this.btnlogin.TabIndex = 1;
             this.btnlogin.Text = "Đăng Nhập";
@@ -184,10 +180,10 @@
             this.btntaotk.InnerColorClick = System.Drawing.Color.Empty;
             this.btntaotk.InnerColorDisable = System.Drawing.Color.Empty;
             this.btntaotk.InnerColorHover = System.Drawing.Color.Empty;
-            this.btntaotk.InnerColorNomal = System.Drawing.Color.Lime;
-            this.btntaotk.Location = new System.Drawing.Point(279, 178);
+            this.btntaotk.InnerColorNomal = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btntaotk.Location = new System.Drawing.Point(446, 370);
             this.btntaotk.Name = "btntaotk";
-            this.btntaotk.Size = new System.Drawing.Size(83, 23);
+            this.btntaotk.Size = new System.Drawing.Size(189, 23);
             this.btntaotk.SizeBorder = 1;
             this.btntaotk.TabIndex = 0;
             this.btntaotk.Text = "Tạo tài khoản";
@@ -207,9 +203,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GUI.Properties.Resources.Hinh_nen_4k_cho_may_tinh__khanhkhiem__40_;
+            this.BackgroundImage = global::GUI.Properties.Resources.login;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(782, 337);
+            this.ClientSize = new System.Drawing.Size(743, 545);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.txtmk);
             this.Controls.Add(this.txttk);
@@ -222,7 +218,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " ";
+            this.Text = "DangNhap";
             ((System.ComponentModel.ISupportInitialize)(this.errortk)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

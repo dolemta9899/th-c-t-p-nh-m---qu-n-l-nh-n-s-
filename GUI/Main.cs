@@ -21,7 +21,7 @@ namespace GUI
 
         private void panmenu_Paint(object sender, PaintEventArgs e)
         {
-            //mcáienuStrip1.Hide();
+            //menuStrip1.Hide();
         }
 
         private void flat_thoat_Click(object sender, EventArgs e)
@@ -49,13 +49,19 @@ namespace GUI
 
         private void flat_timkiem_Click(object sender, EventArgs e)
         {
-            
+            UC.TimKiem a = new UC.TimKiem();
+            a.Dock = DockStyle.Fill;
+            paluse.Controls.Add(a);
+            foreach (Control ctrl in paluse.Controls)
+            {
+                if (ctrl != a)
+                    ctrl.Dispose();
+            }
 
         }
 
         private void flat_thongke_Click(object sender, EventArgs e)
         {
-
             UC.PhongBan a = new UC.PhongBan();
             a.Dock = DockStyle.Fill;
             paluse.Controls.Add(a);
@@ -64,6 +70,7 @@ namespace GUI
                 if (ctrl != a)
                     ctrl.Dispose();
             }
+
 
         }
 
