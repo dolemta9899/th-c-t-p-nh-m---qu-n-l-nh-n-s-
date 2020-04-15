@@ -45,11 +45,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonObject\CommonObject.csproj">
-      <Project>{968A9EB0-C81B-4E01-9046-7F329B975370}</Project>
+      <Project>{968a9eb0-c81b-4e01-9046-7f329b975370}</Project>
       <Name>CommonObject</Name>
     </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{CDAA9F9E-5692-4C91-BCE3-50AC96D8F426}</Project>
+      <Project>{cdaa9f9e-5692-4c91-bce3-50ac96d8f426}</Project>
       <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
